@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/jpg" href="logo.jpg" />
+  <link rel="stylesheet" type="text/css" href="./styles/index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>INSS</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="menu">
+      <a href="/index.html" class="link">
+        <h1>IMC</h1>
+      </a>
+      <a href="/irpf.html" class="link">
+        <h1>IRPF</h1>
+      </a>
+      <a href="/inss.html" class="link">
+        <h1>INSS</h1>
+      </a>
+    </div>
+  </header>
+
+  <form class="main">
+    <p class="textMain">O Instituto Nacional do Seguro Social (INSS)</p>
+    <div class="cardInput" style="margin-top: 130px;">
+      <p class="textInput">Digite seu salário</p>
+      <input class="input" type="number" id="money" placeholder="R$ 2.300,00" />
+    </div>
+    <div class="cardInput">
+      <p class="textInput">Digite seu nome</p>
+      <input class="input" type="text" id="name" placeholder="Eduardo" />
+    </div>
+    <input type="submit" class="buttonCalc" onclick="calculateINSS();" value="Calcular" />
+    <div class="info">
+      <i class="fa fa-search icon"></i>
+      <p>O Instituto Nacional do Seguro Social (INSS) é responsável pelo pagamento da aposentadoria e demais benefícios
+        aos
+        trabalhadores brasileiros, com exceção de servidores públicos. Para ter direito ao benefício, o trabalhador
+        deverá pagar
+        uma contribuição mensal durante um determinado período ao INSS, variando de acordo com o tipo de aposentadoria.
+      </p>
+    </div>
+  </form>
+</body>
+<script type="text/javascript" src="/index.js"></script>
+
+</html>
